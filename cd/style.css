@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    /* padding: 5px 0px; */
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+a, .logo {
+    text-decoration: none;
+    color: rgb(247, 240, 240);
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: sans-serif;
+} 
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+nav {
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px;
+}
+
+.container {
+    height: calc(100vh - 220px);
+    background: no-repeat center/cover url(../image/head01.jpg); 
+}
+
+/*Texto central*/
+.friday {
+    max-width: 400px;
+    margin: 150px auto;
+}
+
+.friday h1 {
+    font-size: 40px;
+    text-align: center;
+    /* color: rgb(63, 63, 63); */
+    color: black;
+    font-weight: bolder;
+}
+
+.friday p {
+    font-size: 40px;
+    /* color: rgb(63, 63, 63); */
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+
