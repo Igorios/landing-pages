@@ -32,7 +32,7 @@ nav {
 
 .container {
     height: calc(100vh - 220px);
-    background: no-repeat center/cover url(../image/head01.jpg); 
+    background: no-repeat center/cover url(./image/head01.jpg); 
 }
 
 /*Texto central*/
