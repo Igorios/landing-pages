@@ -32,7 +32,7 @@ nav {
 
 .container {
     height: calc(100vh - 220px);
-    background: no-repeat center/cover url(./image/head01.jpg); 
+    background: fixed no-repeat center/cover url(./image/head01-650.jpg); 
 }
 
 /*Texto central*/
@@ -56,4 +56,13 @@ nav {
     text-align: center;
     font-weight: bolder;
 }
+
+/*Marca*/
+.marca-filho h2 {
+    color: black;
+    display: flex;
+    width: 100%; 
+    justify-content: space-around;
+    margin: 20px 10px;
+} 
 
