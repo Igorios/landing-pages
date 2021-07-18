@@ -15,4 +15,10 @@ form.addEventListener('submit', (e) => {
 
     localStorage.setItem('lead', converte);
 
+    let storage = document.getElementById('storage');
+
+    let concluido = `<p>Cadastro Realizado com sucesso!!!!</p>`;
+
+    storage.innerHTML = concluido;
+
 });
