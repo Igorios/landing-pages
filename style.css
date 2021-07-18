@@ -21,7 +21,7 @@ li {
     text-decoration: none;
 }
 
-a, .logo {
+a, .logo { 
     text-decoration: none;
     color: rgb(247, 240, 240);
     font-size: 18px;
@@ -35,7 +35,7 @@ ul {
 }
 
 nav {
-    padding: 12px 0px;
+    padding: 10px 0px;
     display: flex;
     justify-content: space-between;
     margin: auto 20px;
@@ -145,6 +145,10 @@ footer {
 
 @media (min-width: 600px) and (max-width: 800px) {
     #cont-dad{ 
-        width: 100%;
+        width: 100%; 
+    }
+
+    li {
+        margin: 4px 4px;
     }
 }
