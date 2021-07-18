@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital@1&family=Cormorant+Garamond:ital,wght@1,500&family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +20,7 @@ a, .logo {
     color: rgb(247, 240, 240);
     font-size: 18px;
     font-weight: bolder;
-    font-family: sans-serif;
+    font-family: 'Chivo',sans-serif;
 } 
 
 ul {
@@ -52,17 +57,82 @@ nav {
 .friday p {
     font-size: 40px;
     /* color: rgb(63, 63, 63); */
-    color: black;
+    color: rgb(22, 10, 10);
     text-align: center;
     font-weight: bolder;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
 }
 
 /*Marca*/
-.marca-filho h2 {
-    color: black;
+.marca-children h2 {
     display: flex;
     width: 100%; 
     justify-content: space-around;
     margin: 20px 10px;
+    font-family: 'Fira Sans', sans-serif;
 } 
 
+/*Cards*/
+.div-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.div-main {
+    margin: 20px 20px;
+    box-shadow: 0 0 5px rgb(49, 48, 48);
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    padding: 5px 5px;
+    width: 100%;
+    height: 100%;
+} 
+
+.botao {
+    width: 50%;
+}
+
+.botao:hover {
+    background-color: black;
+    color: white;
+}
+
+/*LocalStorage*/
+.localstorage {
+    background-color: #e6e3df;
+    margin: 2px 0px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+form {
+    display: grid;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;  
+}
+
+/*Rodapé*/
+footer {
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+    margin: 2px 0px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
