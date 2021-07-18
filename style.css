@@ -7,6 +7,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
 }
 
 li {
@@ -37,7 +43,7 @@ nav {
 
 .container {
     height: calc(100vh - 220px);
-    background: fixed no-repeat center/cover url(./image/head01-650.jpg); 
+    background: no-repeat center/cover url(./image/head01-650.jpg); 
 }
 
 /*Texto central*/
@@ -135,4 +141,10 @@ footer {
     text-align: center;
     width: 100%;
     height: 100px;
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    #cont-dad{ 
+        width: 100%;
+    }
 }

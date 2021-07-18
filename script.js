@@ -15,4 +15,4 @@ form.addEventListener('submit', (e) => {
 
     localStorage.setItem('lead', converte);
 
-})();
+});
