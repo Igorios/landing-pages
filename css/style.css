@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital@1&family=Cormorant+Garamond:ital,wght@1,500&family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #181818;
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+#logo {
+    margin-right: 20px;
+    height: 50px;
+}
+
+ul, li {
+    list-style: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: black;
+    background-color: #6c7212;
+}
+
+.navLink {
+    display: flex;
+}
+
+.navLink li {
+    margin-left: 20px;
+}
+
+.navLink li a {
+    display: block;
+    padding: 10px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.sectionOne {
+    padding-top: 60px;
+    height: 100vh;
+}
+
+.cardMain {
+    background: no-repeat center/cover url(/image/imagem-principal.jpg);
+    border-radius: 15px;
+    margin: 20px;
+    height: 600px;
+}
+
+.textSectionOne {
+    padding: 40px;
+    color: #ffffff;
+}
+
+.textSectionOne h1 {
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+.textSectionOne p {
+    font-size: 16px;
+}
+
+.buttonCardMain {
+    cursor: pointer;
+    border: none;
+    width: 90px;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #1258db;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.sectionTwo h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+.containerCardClock {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cardClock {
+    display: flex;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff56;
+    border: 1px solid black;
+}
+
+.cardClock img {
+    width: 200px;
+    height: 200px;
+}
+
+.footerContainer {
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f11f;
+}
+
+.footerContainer header {
+    text-align: center;
+    font-size: 26px;
+    margin: 20px 0;
+    padding-top: 30px;
+}
+
+.address {
+    font-size: 30px;
+    padding-top: 40px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.address a {
+    color: #000;
+}
