@@ -63,10 +63,10 @@ a:hover {
 }
 
 .cardMain {
-    background: no-repeat center/cover url(/image/imagem-principal.jpg);
+    background: no-repeat center/cover url(../image/imagem-principal.jpg);
     border-radius: 15px;
     margin: 20px;
-    height: 600px;
+    height: 85vh;
 }
 
 .textSectionOne {
@@ -96,7 +96,11 @@ a:hover {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-.sectionTwo h2{
+.row {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
     text-align: center;
     color: #ffffff;
 }
