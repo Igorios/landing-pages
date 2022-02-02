@@ -46,10 +46,6 @@ a:hover {
     display: flex;
 }
 
-.navLink li {
-    margin-left: 20px;
-}
-
 .navLink li a {
     display: block;
     padding: 10px;
